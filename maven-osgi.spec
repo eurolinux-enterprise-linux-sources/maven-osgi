@@ -1,6 +1,6 @@
 Name:           maven-osgi
 Version:        0.2.0
-Release:        6%{?dist}
+Release:        7%{?dist}
 # Maven-shared defines maven-osgi version as 0.3.0
 Epoch:          1
 Summary:        Library for Maven-OSGi integration
@@ -62,6 +62,9 @@ cp -p %{SOURCE1} LICENSE
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.2.0-7
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1:0.2.0-6
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
